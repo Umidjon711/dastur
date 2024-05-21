@@ -19,8 +19,11 @@ class _SState extends State<S> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> main
         child: SingleChildScrollView(
           child: Column(
             children: [
@@ -38,7 +41,12 @@ class _SState extends State<S> {
                 width: 400,
                 height: 300,
                 color: Colors.green,
+              ),     Container(
+                width: 400,
+                height: 300,
+                color: Colors.pink,
               ),
+<<<<<<< HEAD
               Container(
                 width: 400,
                 height: 300,
@@ -51,6 +59,13 @@ class _SState extends State<S> {
       ),)
 
      
+=======
+
+            ],
+          ),
+        ),
+      ),
+>>>>>>> main
     );
   }
 }
